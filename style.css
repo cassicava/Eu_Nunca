@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial Rounded MT Bold,Helvetica, Arial,  sans-serif;
+    
+}
+body {
+    background-color:white;
+    width:auto;
+    height: auto;
+
+}
+
+/* TITULO */
+
+header {
+    background: rgb(107,22,122);
+    background: linear-gradient(90deg, rgba(107,22,122,1) 0%, rgba(180,32,123,1) 25%, rgba(253,41,123,1) 50%, rgba(255,88,100,1) 75%, rgba(255,129,121,1) 100%);
+}
+
+h1{
+    width: 100%; 
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

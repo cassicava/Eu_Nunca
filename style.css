@@ -19,12 +19,6 @@ header {
     background: linear-gradient(90deg, rgba(107,22,122,1) 0%, rgba(180,32,123,1) 25%, rgba(253,41,123,1) 50%, rgba(255,88,100,1) 75%, rgba(255,129,121,1) 100%);
 }
 
-.borda{
-    background-color:white;
-    border-top-left-radius:50px;
-    border-top-right-radius: 50px;
-}
-
 h1{
     width: 100%; 
     color:white;
@@ -32,7 +26,7 @@ h1{
     font-size: 60px;
     font-weight: bold;  
     padding-top: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 80px;
 }
 
 /* TITULO */
@@ -100,13 +94,23 @@ main {
     max-height:fit-content;
 }
 
+.borda{
+    position: relative;
+    bottom: 50px;
+    background-color:white;
+    border-top-left-radius:45px;
+    border-top-right-radius: 45px;
+    width: 100%;
+}
+
 h2{ 
     color:black;
     text-align:left;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
 }
 
 /* MAIN */
